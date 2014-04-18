@@ -1,0 +1,10 @@
+@media(max-width:767px){
+    /*div.view-find-answer div.view-filters form {
+        max-width: 200px;
+    } */
+  div.view-find-answer div.view-filters form input#edit-combine.form-control.form-text {
+    width: 350px;
+  }
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}

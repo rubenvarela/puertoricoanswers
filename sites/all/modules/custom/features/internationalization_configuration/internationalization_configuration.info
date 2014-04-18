@@ -1,0 +1,16 @@
+name = Internationalization - Configuration
+description = Contains the configuration to enable internationalization. 
+core = 7.x
+package = Features
+version = 7.x-1.0-alpha1
+project = internationalization_configuration
+dependencies[] = fe_block
+dependencies[] = features
+dependencies[] = features_translations
+dependencies[] = locale
+features[fe_block_settings][] = locale-language
+features[features_api][] = api:2
+features[language][] = en
+features[language][] = es
+features[translations][] = es:default
+project path = sites/all/modules/custom/features

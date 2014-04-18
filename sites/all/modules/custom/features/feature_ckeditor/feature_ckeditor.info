@@ -1,0 +1,12 @@
+name = ckeditor
+description = Ckeditor Configuration
+core = 7.x
+package = Features
+version = 7.x-1.0-alpha1
+project = feature_ckeditor
+dependencies[] = features
+dependencies[] = filter
+features[ckeditor_profile][] = Advanced
+features[features_api][] = api:2
+features[filter][] = authenticated_user
+features_exclude[dependencies][ckeditor] = ckeditor

@@ -1,0 +1,6 @@
+<?php
+
+function custom_features_form_views_exposed_form_alter(&$form, &$form_state) {
+//  dpm($form);
+    print "test";
+}

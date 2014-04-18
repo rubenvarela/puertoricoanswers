@@ -1,0 +1,124 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+/* Ruben*/
+input#edit-combine.form-control.form-text{
+    width: 500px;
+    text-align: left;
+}
+
+div.views-exposed-form {
+    text-align: center;
+}
+
+/* General styles */
+
+a.navbar-brand {
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: Oswald, "News Cycle", Helvetica, Tahoma, Arial, sans-serif;
+	letter-spacing: 0.08em;
+	/* border-bottom: 7px solid #3a9d2f; */
+	text-decoration: none;
+	text-transform: uppercase;
+	/* line-height: 70%; */
+}
+
+body {
+	background-color: #f0f0f0;
+}
+
+div.main-container {
+	background-color: #fff;
+	margin-top: 50px;
+}
+
+/* Welcome */
+#block-system-main > div > div.view-header {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#welcome-line-l {
+	position: relative;
+	float: left;
+	margin-top: 12px;
+	z-index: 1;
+	width: 35%;
+	border: 1px solid #666768;
+}
+
+div#welcome-line-r {
+	position: relative;
+	float: right;
+	margin-top: 12px;
+	z-index: 50;
+	width: 35%;
+	border: 1px solid #666768;
+}
+
+h3.welcome {
+	font-family: "Satisfy",cursive;
+	color: #303030;
+	font-size: 36px;
+	text-align: center;
+	line-height: 100%;
+	z-index: 100;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+h1.home-modal {
+	font-size: 5.4em;
+	font-weight: 580;
+	letter-spacing: 0.04em;
+	color: #303030;
+	font-family: Oswald,"News Cycle",Helvetica,Tahoma,Arial,sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 35px 0 30px 0;
+	text-shadow: -5px 5px 5px rgba(0,0,0,0.1),-5px 2px 5px rgba(0,0,0,0.05),-5px 2px 5px rgba(0,0,0,0.05);
+}
+
+body.front div.main-container {
+	max-width: 800px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+/* Find answers view -------------------*/
+.views-exposed-form .views-exposed-widget .form-submit {
+	margin-top: 0; 
+}
+
+div.view-find-answer {
+	text-align: center;
+}
+
+div.view-find-answer div.view-header div#find-answers{
+	padding: 10px;
+	font-size: 24px;
+	font-family: 'Open Sans Condensed', 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
+}
+
+div.view-find-answer div.view-filters form {
+	max-width: 700px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.view-find-answer div.view-filters form input#edit-combine.form-control.form-text {
+	width: 595px;
+}
+
+div.view-find-answer div.view-filters .views-exposed-form .views-exposed-widget {
+	padding: 0;
+	padding-left: 5px;
+}
+
+div.view-find-answer div.view-content {
+	text-align: left;
+}
